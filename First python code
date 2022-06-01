@@ -1,0 +1,22 @@
+#By AniError!!
+#06/01/2022
+
+
+print("Hello, Welcome to AniErrors coding practise!")
+
+name = input("What is your name?\n")
+
+print("Hello " + name + ", Thank you so much for coming today!!")
+print(" ")
+print(" ")
+print("")
+
+
+menu = "Black coffe, Latte, espresso."
+
+print(name + ", What would you like to order from our menu today? Here is what we are serving.\n"
++ menu)
+
+order = input()
+
+print("sounds good, " + name + ", here is your " + order + ".")
